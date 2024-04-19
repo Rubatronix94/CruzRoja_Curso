@@ -1,0 +1,89 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: aquamarine;
+    border-radius:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinea los elementos verticalmente en la parte superior */
+    position: relative; /* Permite posicionar elementos hijos relativos a este */
+    padding: 10px 20px;
+}
+
+.texto {
+    position: absolute; /* Posiciona el div de forma absoluta */
+    left: 110px; /* Lo coloca a 20px del borde izquierdo */
+    bottom: 0; /* Lo coloca al borde inferior */
+}
+
+h1 {
+    text-align: center;
+    color: #9c14fc;
+    font-weight: 100;
+}
+
+.tracasImg {
+    width: 100vh;
+    height: auto;
+    padding-left: auto;
+}
+
+nav {
+    display: flex;
+    border: 3px solid #c2c3c3;
+    border-radius: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #c2c3c3;
+    padding: 5px 20px;
+}
+
+footer {
+    background-color: #f2d1f2;
+    padding: 10px;
+}
+
+#contacts {
+    font-weight: bolder;
+    padding-left: 40px;
+    font-style: normal;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productos p {
+    border-radius: 10px;
+    background-color: #cb6c4c;
+    color: white;
+    padding: 2px 8px;
+}
+
+.oferta {
+    padding: auto;
+}
+
+.oferta img {
+    width:80%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid aquamarine;
+}
+
+#discount {
+    color: blue;
+}
+
+footer p {
+    background-color: white;
+    font-style: italic;
+    margin: 10px;
+    padding-left: 10px;
+}
